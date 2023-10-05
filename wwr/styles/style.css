@@ -2,7 +2,7 @@ body {
     background-color: #D3D3D3;
 }
 header {
-    background-color: rgba(20,30,13 .7);
+    background-color: #fafbfb;
 }
 nav a {
     text-align: center;
@@ -37,7 +37,7 @@ nav a:hover {
 }
 content {
     max-width: 1600px;
-    margin: 0auto;
+    margin: 0 auto;
 }
 .logo {
     width: 80px;
