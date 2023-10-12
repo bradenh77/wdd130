@@ -71,6 +71,9 @@ nav a:hover {
     width: 80px;
     padding-top: 10px;
 }
+.mountains {
+    margin: 100px 0;
+}
 .home-title {
     color: #008794;
     font-family: "Roboto Slab";
