@@ -188,6 +188,38 @@ footer a:hover {
     color: #00CDE0
 }
 
+.verticle-container {
+}
+
+#riverheading {
+
+}
+
+.salmon-river, .desolation, .grand-canyon {
+    display: grid;
+    grid-template-columns: 500px 650px;
+    grid-row: auto;
+    margin-bottom: 50px;
+}
+.salmon-river img, .desolation img, .grand-canyon img {
+    margin-left: 15px;
+    float: left;
+    grid-column: 1/2;
+    grid-row: 1/4;
+}
+.salmon-river h2, .desolation h2, .desolation h2 {
+    grid-column: 2/3;
+    grid-row: 1/2;
+}
+.salmon-river p, .desolation p, .grand-canyon p {
+    font-size: .8em;
+    margin-left: 20px;
+    grid-column: 2/3;
+    grid-row: 2/4;
+}
+
+
+
 @media screen and (max-width: 900px) {
     #hero, .home-grid {
         display: block;
